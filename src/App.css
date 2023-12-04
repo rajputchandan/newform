@@ -1,0 +1,88 @@
+ .main {
+   width: 100%;
+   display: flex;
+   /* flex-direction: column; */
+   height: 100vh;
+   /* border: solid red 2px; */
+ }
+
+ #gif {
+   height: 100vh;
+ }
+
+ .side-div {
+   float: right;
+   width: 100%;
+   height: 100vh;
+   /* border: solid black 2px; */
+ }
+
+ .button {
+   display: inline-flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 5rem;
+   /* border: solid red 2px; */
+ }
+
+ .button h1 {
+   margin-left: 20px;
+ }
+
+ #showdata {
+   font-size: 15px;
+   margin-right: 20px;
+   width: 100px;
+   height: 30px;
+   color: white;
+   border-radius: 5px;
+   background-color: rgb(65, 65, 248);
+ }
+
+ .slect {
+
+
+   margin-top: 20px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: bolder;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ #craet-table {
+   margin-top: 50px;
+   width: 100%;
+
+   display: flex;
+
+   justify-content: center;
+
+ }
+
+ #craet-table td tr {
+
+
+   height: 75px;
+ }
+
+ #craet-table tr p {
+   line-height: 7px;
+ }
+
+ #craet-table input {
+   width: 350px;
+
+ }
+
+ #submit {
+   font-size: 17px;
+   margin-top: 30px;
+   width: 110px;
+   height: 35px;
+   color: white;
+   border-radius: 5px;
+   background-color: rgb(65, 65, 248);
+
+ }
